@@ -259,7 +259,7 @@ nav ul li{
 
 .booking-1, .booking-3{
     background-image: url(../Images/Group\ 39.png);
-    width: 100%;
+    max-width: 100%;
     max-height: 500px;
     background-position: center;
     background-repeat: no-repeat;
@@ -271,7 +271,7 @@ nav ul li{
 }
 .booking-2{
     background-image: url(../Images/Group\ 40.png);
-    width: 100%;
+    max-width: 100%;
     max-height: 500px;
     border-radius: 16px;
     background-position: center;
@@ -597,6 +597,11 @@ footer{
 
     header, main{
         margin: 20px;
+    
+    }
+    nav{
+        margin-top: 0;
+        margin-bottom: 0;
     }
     nav ul{
         visibility: hidden;
@@ -604,6 +609,7 @@ footer{
     .fa-bars{
         visibility: visible;
         font-size: 24px;
+        padding-top: 50px;
     }
     .navigation ul{
         flex-direction: column;
@@ -641,7 +647,7 @@ footer{
     .img-container{
         margin: 0;
     }
-    .img-container img, .card2{
+    .img-container img, .card2, .img-container-1 img{
         width: 100%;
     }
     .card1{
@@ -650,7 +656,6 @@ footer{
     }
 
     .booking-1, .booking-2, .booking-3{
-        margin: 0;
         padding-bottom: 16px;
         padding-left: 16px;
         padding-right: 16px;
@@ -658,7 +663,6 @@ footer{
     .booking-card-1, .booking-card-2, .booking-card-3{
         padding-left: 25px;
         padding-top: 25px;
-        padding-right: 25px;
         margin-right: 0;
         margin-left: 0;
     }
@@ -677,5 +681,56 @@ footer{
     .perfect-place{
         flex-direction: column;
     }
+    .testimonial-box, .newsletter{
+        flex-direction: column;
+    }
+    .percent{
+        padding: 25px;
+        top: 45%;
+    }
+    .place-title{
+        max-width: 248px;
+        line-height: 30px;
+    }
+    .travel-percent, .tours-heading, .choose-heading, .box h4, .deals-title,.booking-title, .place-title, .testimonial h3, .testimonial p{
+        font-size: 20px;
+    }
+    .logo1 h3{
+        font-size: 22px;
+    }
+    .travel-name, .tours p, .tours ul li, .destination p{
+        font-size: 15px;
+    }
+    .newsletter{
+        margin-bottom: 0;
+    }
+    footer{
+        padding-top: 33px;
+    }
+    .footer{
+        width: 287px;
+    }
+    .fa-twitter, .tours ul{
+        padding-left: 20px;
+    }
+    .line{
+        max-width: 85%;
+    }
+    .logo h3, .banner-title, .destination h3{
+        font-size: 22px;
+    }
+    .banner-description{
+        font-size: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .for-form{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .tours, .choose-heading, .deals-title{
+        margin-top: 24px;
+    }
 
+    
 }
