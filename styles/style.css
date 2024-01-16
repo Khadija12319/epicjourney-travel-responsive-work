@@ -1,9 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    max-width: 1170px;
-    margin: auto;
     font-family: 'Mulish', sans-serif;
+    margin: auto;
+}
+header, main{
+    max-width: 1170px;
 }
 
 .logo{
@@ -70,7 +72,8 @@ nav ul li{
     line-height: 26px;
     max-width: 676px;
     padding-top: 24px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
+    margin: auto;
 }
 .form-1{
     display: flex;
@@ -79,6 +82,7 @@ nav ul li{
     padding: 16px;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.30);
+    margin: auto;
 }
 .for-form{
     padding-bottom: 106px;
@@ -204,14 +208,14 @@ nav ul li{
 }
 
 
-.destination h3, .choose-heading, .deals-title{
+.destination h3, .choose-heading, .deals-title, .testimonial > h3{
     color: #131318;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
     margin-top: 100px;
 }
-.destination p, .choose-description, .deals-description{
+.destination p, .choose-description, .deals-description , .testimonial > p, .comment, .person-name{
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     max-width: 643px;
@@ -220,6 +224,7 @@ nav ul li{
     line-height: 26px;
     padding-top: 24px;
     padding-bottom: 48px;
+    margin: auto;
 }
 .row img{
     height: 300px;
@@ -406,11 +411,12 @@ nav ul li{
     margin-top: 16px;
 }
 
-
+/* Newsletter section*/
 .newsletter{
     display: flex;
     margin-top: 100px;
     gap: 24px;
+    margin-bottom: 100px;
 }
 .newsletter > div{
     margin: 0;
@@ -501,4 +507,83 @@ hr{
     font-size: 32px;
     font-weight: 800;
     text-align: center;
+}
+
+.testimonial-box{
+    display: flex;
+    gap: 26px;
+    justify-content: space-between;
+}
+.tes-box{
+    border-radius: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background-color: rgba(251, 181, 99, 0.05);
+}
+.tes-box img{
+    border-radius: 350px;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.person-name, .testimonial > p{
+    font-size: 25px;
+}
+
+
+
+footer{
+    background-color: rgba(19, 19, 24, 0.05);
+    padding-top: 110px;
+    padding-bottom: 110px;
+    margin: 0;
+    max-width: 100%;
+}
+.logo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo1 img, .logo1 h3{
+    margin: 0;
+}
+.logo1 h3{
+    padding-left: 16px;
+    font-size: 32px;
+    font-weight: 800;
+}
+.footer{
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 769px;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 32px;
+}
+.footer-icons{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.footer-icons i{
+    padding-right: 20px;
+    font-size: 25px;
+}
+.line{
+    max-width: 872px;
+    margin: auto;
+}
+.footer-title{
+    color: #131318;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 50px;
 }
